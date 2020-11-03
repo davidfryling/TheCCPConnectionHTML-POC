@@ -1,26 +1,44 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-	
 	<head>
 		<title>The CCP Connection</title>
 		<meta charset="utf-8">
 	</head>
-	
 	<body>
-		<!-- create form for student to enter course info... use &nbsp; to space fields and <br> to start new row of fields -->
-		<main>
-			<img src="css\imgs\logo3.svg">
-			<h1>Enter the info for the courses you would like to add</h1>
-			<form>
-				
-			</form>
-			<button>Submit</button>
-		</main>
+
+		<!-- Instructions -->
+		
+		<div>
+			<h1>Enter the info for the courses you would like to add.</h1>
+		</div>
+
+		<!-- /Instructions -->
+
+		<!-- Add Request Form -->
+
+		<div>
+			<section>
+				<form action="" method="post">
+					Term: <input type="dropdown" name="Term_ID"> <!-- HTML for dropdown -->
+				</form>		
+			</section>
+			<section>
+				<form action="" method="post">
+					Subject: <input type="text" name="Subject" placeholder="SUBJ">
+					Course Number: <input type="text" name="Course_Number" placeholder="####">
+					Section Number: <input type="text" name="Section_Number" placeholder="####">
+					Synonym Number: <input type="text" name="Synonym_Number" placeholder="####">
+					Credit Hours: <input type="text" name="Credit_Hours" placeholder="#">
+					Course Name: <input type="text" name="Course_Name" placeholder="Course Name">
+					Days & Times: <input type="text" name="Days_Times" placeholder="Days & Times">
+					<a href="./drop-request.html">
+						<input type="submit" value="Submit">
+					</a>
+				</form>
+			</section>
+		</div>
+
+		<!-- /Form -->		
 	
 	</body>
-	
-	<footer>
-		
-	</footer>
-	
 </html>
