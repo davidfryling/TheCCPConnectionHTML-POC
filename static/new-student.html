@@ -1,27 +1,38 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-	
 	<head>
 		<title>The CCP Connection</title>
 		<meta charset="utf-8">
 	</head>
-	
 	<body>
-		<!-- create form for student to enter their info... use &nbsp; to space fields and <br> to start new row of fields -->
-		<main>
-			<img src="css\imgs\logo3.svg">
-			<h1>Enter your information below</h1>
+
+		<!-- Instructions -->
+
+		<div>
+			<h1>Enter your information below.</h1>
+		</div>
+
+		<!-- /Instructions -->
+
+		<!-- New Student Form -->
+
+		<div>
 			<form action="" method="post">
-				First Name: <input type="text" name="First_Name"><br>
-				Last Name: <input type="text" name="Last_Name"><br>
-				<input type="submit" value="Submit">
+			 	First Name: <input type="text" name="First_Name" placeholder="Please Enter your First Name"><br>
+				Last Name: <input type="text" name="Last_Name" placeholder="Please Enter your Last Name"><br>
+				High School: <input type="dropdown" name="High_School"><br> <!-- HTML for dropdown -->
+				Cougar ID: <input type="text" name="Last_Name" placeholder="Please Etner your Cougard ID"><br>
+				Your Email: <input type="text" name="Student_Email" placeholder="Please Enter your Full Email Address"><br>
+				Verify Your Email: <input type="text" name="Student_Email" placeholder="Please Re-enter your Full Email Address"><br>
+				Your Parent's Email: <input type="text" name="Parent_Email" placeholder="Please Enter your Parent's Full Email Address"><br>
+				Verify Your Paren'ts Email: <input type="text" name="Parent_Email" placeholder="Please Re-enter your Parent's Full Email Address"><br>
+				<a href="./verify-id.html">
+					<input type="submit" value="Submit">
+				</a>
 			</form>
-		</main>
+		</div>
+
+		<!-- /Form -->
 	
 	</body>
-	
-	<footer>
-		
-	</footer>
-	
 </html>
