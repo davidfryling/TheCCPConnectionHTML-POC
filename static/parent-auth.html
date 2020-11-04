@@ -6,25 +6,25 @@
 	</head>
 	<body>
 
-		<!-- Instructions -->
+		<!-- Container with Instructions & Parent Authentication Form & 2 Small Buttons -->
 
 		<div>
-			<h1>Enter your student's information below.</h1>
+			<div>
+				<h1>Enter your student's information below.</h1>
+			</div>
+			<div>
+				<form action="./parent-verify-id.html" method="post">
+					Student's Cougar ID: <input type="text" name="Last_Name" placeholder="Please Enter your Students Cougar ID"><br>
+					PIN (in notification email): <input type="text" name="CID" placeholder="Please Enter the PIN"><br>
+					<input type="submit" value="Submit">
+				</form>
+			</div>
+			<div>
+				<a href="./index.html">Back</a>
+			</div>
 		</div>
 
-		<!-- /Instructions -->
-
-		<!-- Student Authentication Form -->
-
-		<div>
-			<form action="./parent-verify-id.html" method="post">
-				Cougar ID: <input type="text" name="CID" placeholder="Please Etner your Cougard ID"><br>
-				PIN: <input type="text" name="Batch_Number" placeholder="Please Enter your Cougard ID"><br>
-				<input type="submit" value="Submit">
-			</form>
-		</div>
-
-		<!-- /Form -->
+		<!-- /Container -->
 	
 	</body>
 </html>
