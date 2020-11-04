@@ -6,37 +6,71 @@
 	</head>
 	<body>
 
-		<!-- Instructions -->
+<!-- 1 Container with Instructions & 2 sub-Containers / 1 Container with Search Criteria / 1 Container Student Request Table & 1 Small Button -->
 
+<div>
+	<div>
+		<h1>Advisor Dashboard</h1>
 		<div>
-			<h1>Counselor Dashboard</h1>
+			<a href="./index.html">Logout</a>
 		</div>
+	</div>
+	<div>
+		<form action="" method="get">
+			Term: <input type="dropdown" name="Term_ID"><br> <!-- HTML for dropdown -->
+			Parent Approval: <input type="dropdown" name="Parent_Approval"><br> <!-- HTML for dropdown -->
+			Counselor Approval: <input type="dropdown" name="Counselor_Approval"><br> <!-- HTML for dropdown -->
+			Unregistered: <input type="dropdown" name="Advisor_Decision"><br> <!-- HTML for dropdown -->
+			<input type="submit" value="Search">
+		</form>
+		<table>
+			<tr> 
+				<th>Subject</th>
+				<th>Counrse Number</th>
+				<th>Section Number</th>
+				<th>Synonym Number</th>
+				<th>Credit Hours</th>
+				<th>Course Name</th>
+				<th>Days & Times</th>
+				<th>Parent Approval</th>
+				<th>Counselor Approval</th>
+				<th>Advisor Decision</th>	
+				<th>SSID</th>
+				<th>Max Credits</th>
+				<th>Registered?</th>
+				<th>Submit</th>
+			</tr>
+			<tr> 
+				<td>Subject</td>
+				<td>Counrse Number</td>
+				<td>Section Number</td>
+				<td>Synonym Number</td>
+				<td>Credit Hours</td>
+				<td>Course Name</td>
+				<td>Days & Times</td>
+				<td>Parent Approval</td>
+				<td>Counselor Approval</td>
+				<td>Advisor Decision</td>
+				<th>SSID</th>
+				<th>Max Credits</th>
+				<th>Submit</th>
+				<th>Registered?</th>
+				<td>
+					<form action="" method="post">
+						Registered: <input type="dropdown" name="Register">
+					</form>
+				</td>
+				<td>
+					<form action="" method="post">
+						<input type="submit" value="Submit">
+					</form>
+				</td>
+			</tr>
+		</table>
+	</div>
+</div>
 
-		<!-- /Instructions -->
-
-		<!-- Counselor Dashboard -->
-
-		<div>
-			<section>
-				<form>
-
-				</form>
-			</section>
-			<section>
-				<table> 
-					<th>Subject</th>
-					<th>Counrse Number</th>
-					<th>Section Number</th>
-					<th>Synonym Number</th>
-					<th>Credit Hours</th>
-					<th>Course Name</th>
-					<th>Days & Times</th>	
-					<th>Parent Approval</th>	
-				</table>
-			</section>
-		</div>
-
-		<!-- /Table -->
+<!-- /Container -->
 	
 	</body>
 </html>
