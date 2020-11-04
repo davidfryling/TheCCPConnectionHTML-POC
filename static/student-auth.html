@@ -6,25 +6,25 @@
 	</head>
 	<body>
 
-		<!-- Instructions -->
+		<!-- Container with Instructions & Student Authentication Form & 2 Small Buttons -->
 
 		<div>
-			<h1>Enter your information below</h1>
+			<div>
+				<h1>Enter your information below</h1>
+			</div>
+			<div>
+				<form action="./student-verify-id.html" method="post">
+					Last Name: <input type="text" name="Last_Name" placeholder="Please Enter your Last Name"><br>
+					Cougar ID: <input type="text" name="CID" placeholder="Please Enter your Cougard ID"><br>
+					<input type="submit" value="Submit">
+				</form>
+			</div>
+			<div>
+				<a href="./return.html">Back</a>
+			</div>
 		</div>
 
-		<!-- /Instructions -->
-
-		<!-- Student Authentication Form -->
-
-		<div>
-			<form action="./student-verify-id.html" method="post">
-				Last Name: <input type="text" name="Last_Name" placeholder="Please Enter your Last Name"><br>
-				Cougar ID: <input type="text" name="CID" placeholder="Please Enter your Cougard ID"><br>
-				<input type="submit" value="Submit">
-			</form>
-		</div>
-
-		<!-- /Form -->
+		<!-- /Container -->
 	
 	</body>
 </html>
