@@ -6,30 +6,65 @@
 	</head>
 	<body>
 
-		<!-- Instructions -->
+		<!-- 1 Container with Instructions & 2 sub-Containers / 1 Container with Student Info List / 1 Container with Term Change Dropdown & Approval Request Table & 2 Small Buttons -->
 
 		<div>
-			<h1>Please note your decision regarding for each course below.</h1>
+			<div>
+				<h1>Please note your decision regarding for each course below.</h1>
+			</div>
+			<div>
+				<ul> 
+					<li>First Name</li>
+					<li>Last Name</li>
+					<li>High School</li>
+					<li>Cougar ID</li>
+				</ul>
+			</div>
+			<div>
+				<form action="" method="get">
+					Term: <input type="dropdown" name="Term_ID"><br> <!-- HTML for dropdown -->
+					<input type="submit" value="Change Term">
+				</form>
+				<table>
+					<tr> 
+						<th>Subject</th>
+						<th>Counrse Number</th>
+						<th>Section Number</th>
+						<th>Synonym Number</th>
+						<th>Credit Hours</th>
+						<th>Course Name</th>
+						<th>Days & Times</th>
+						<th>Parent Approval</th>
+						<th>Counselor Approval</th>
+						<th>Advisor Decision</th>	
+						<th>Approve?</th>
+					</tr>
+					<tr> 
+						<td>Subject</td>
+						<td>Counrse Number</td>
+						<td>Section Number</td>
+						<td>Synonym Number</td>
+						<td>Credit Hours</td>
+						<td>Course Name</td>
+						<td>Days & Times</td>
+						<td>Parent Approval</td>
+						<td></td>Counselor Approval</td>
+						<td>Advisor Decision</td>	
+						<td>
+							<form action="" method="post">
+								Approval: <input type="dropdown" name="Approval"><br>
+							</form>
+						</td>
+					</tr>
+				</table>
+			</div>
+			<div>
+				<a href="./confirmation.html">Submit</a>
+				<a href="./parent-auth.html">Back</a>
+			</div>
 		</div>
 
-		<!-- /Instructions -->
-
-		<!-- Parent Decision Table -->
-
-		<div>
-			<table> 
-                <th>Subject</th>
-                <th>Counrse Number</th>
-                <th>Section Number</th>
-                <th>Synonym Number</th>
-				<th>Credit Hours</th>
-				<th>Course Name</th>
-				<th>Days & Times</th>	
-				<th>Approve?</th>	
-            </table>
-		</div>
-
-		<!-- /Table -->
+		<!-- /Container -->
 	
 	</body>
 </html>
