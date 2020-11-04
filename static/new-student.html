@@ -6,31 +6,31 @@
 	</head>
 	<body>
 
-		<!-- Instructions -->
+		<!-- Container with Instructions & Student Info Form & 2 Small Buttons -->
 
 		<div>
-			<h1>Enter your information below.</h1>
+			<div>
+				<h1>Enter your information below.</h1>
+			</div>
+			<div>
+				<form action="./student-verify-id.html" method="post">
+					First Name: <input type="text" name="First_Name" placeholder="Please Enter your First Name"><br>
+					Last Name: <input type="text" name="Last_Name" placeholder="Please Enter your Last Name"><br>
+					High School: <input type="dropdown" name="High_School"><br> <!-- HTML for dropdown -->
+					Cougar ID: <input type="text" name="Last_Name" placeholder="Please Enter your Cougard ID"><br>
+					Your Email: <input type="text" name="Student_Email" placeholder="Please Enter your Full Email Address">
+					Verify Your Email: <input type="text" name="Student_Email" placeholder="Please Re-enter your Full Email Address"><br>
+					Your Parent's Email: <input type="text" name="Parent_Email" placeholder="Please Enter your Parent's Full Email Address">
+					Verify Your Paren'ts Email: <input type="text" name="Parent_Email" placeholder="Please Re-enter your Parent's Full Email Address"><br>
+					<input type="submit" value="Submit">
+				</form>
+			</div>
+			<div>
+				<a href="./new-student.html">Back</a>
+			</div>
 		</div>
 
-		<!-- /Instructions -->
-
-		<!-- New Student Form -->
-
-		<div>
-			<form action="./student-verify-id.html" method="post">
-			 	First Name: <input type="text" name="First_Name" placeholder="Please Enter your First Name"><br>
-				Last Name: <input type="text" name="Last_Name" placeholder="Please Enter your Last Name"><br>
-				High School: <input type="dropdown" name="High_School"><br> <!-- HTML for dropdown -->
-				Cougar ID: <input type="text" name="Last_Name" placeholder="Please Enter your Cougard ID"><br>
-				Your Email: <input type="text" name="Student_Email" placeholder="Please Enter your Full Email Address">
-				Verify Your Email: <input type="text" name="Student_Email" placeholder="Please Re-enter your Full Email Address"><br>
-				Your Parent's Email: <input type="text" name="Parent_Email" placeholder="Please Enter your Parent's Full Email Address">
-				Verify Your Paren'ts Email: <input type="text" name="Parent_Email" placeholder="Please Re-enter your Parent's Full Email Address"><br>
-				<input type="submit" value="Submit">
-			</form>
-		</div>
-
-		<!-- /Form -->
+		<!-- /Container -->
 	
 	</body>
 </html>
