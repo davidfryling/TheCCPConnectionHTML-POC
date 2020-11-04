@@ -6,23 +6,25 @@
 	</head>
 	<body>
 
-		<!-- Instructions -->
-		
-		<div>
-			<h1>Enter the info for the courses you would like to add.</h1>
-		</div>
-
-		<!-- /Instructions -->
-
-		<!-- Add Request Form -->
+		<!-- 1 Container with Instructions & 2 sub-Containers / 1 Container with Student Info List / 1 Container with Term Change Dropdown & Drop Request Table & 2 Small Buttons -->
 
 		<div>
-			<section>
-				<form action="" method="post">
-					Term: <input type="dropdown" name="Term_ID"> <!-- HTML for dropdown -->
-				</form>		
-			</section>
-			<section>
+			<div>
+				<h1>Enter the info for the courses you would like to add.</h1>
+			</div>
+			<div>
+				<ul> 
+					<li>First Name</li>
+					<li>Last Name</li>
+					<li>High School</li>
+					<li>Cougar ID</li>
+				</ul>
+			</div>
+			<div>
+				<form action="" method="get">
+					Term: <input type="dropdown" name="Term_ID"><br> <!-- HTML for dropdown -->
+					<input type="submit" value="Change Term">
+				</form>
 				<form action="./confirmation.html" method="post">
 					Subject: <input type="text" name="Subject" placeholder="SUBJ">
 					Course Number: <input type="text" name="Course_Number" placeholder="####">
@@ -33,10 +35,14 @@
 					Days & Times: <input type="text" name="Days_Times" placeholder="Days & Times">
 					<input type="submit" value="Submit">
 				</form>
-			</section>
+			</div>
+			<div>
+				<a href="./confirmation.html">Submit</a>
+				<a href="./add-drop.html">Back</a>
+			</div>
 		</div>
 
-		<!-- /Form -->		
+		<!-- /Container -->
 	
 	</body>
 </html>
