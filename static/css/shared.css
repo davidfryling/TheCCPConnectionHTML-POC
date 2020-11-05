@@ -33,7 +33,7 @@ body {
 .container {
     position: relative;
     display: block; 
-    background-color: rgba(30, 203, 233, 0.8);
+    background-color: rgba(106, 213, 231, 0.8);
     padding: 2%;
     margin: 12.5% auto;
     width: 75%;
@@ -50,14 +50,14 @@ body {
 .large-button {
     position: relative;
     display: block; 
-    background-color: rgba(30, 61, 233, 0.8);
+    background-color: rgba(72, 95, 228, 0.8);
     margin: 3% auto;
     padding: 2%;
     width: 25%;
     border: 1px black;
     border-radius: 3px;
     box-shadow: 3px 3px 10px rgba(0,0,0,0.8);
-    color: rgba(228, 228, 228, 0.8);
+    color: rgba(255, 255, 255, 0.8);
     font-size: 150%;
     font-weight: 600;
     text-align: center;
@@ -66,20 +66,20 @@ body {
 
 .large-button:hover {
     background-color: rgba(14, 27, 99, 0.8);
-    color: rgba(241, 241, 241, 0.8);
+    color: rgba(255, 255, 255, 0.8);
 }
 
 .small-button {
     position: relative;
     display: block; 
-    background-color: rgba(30, 61, 233, 0.8);
+    background-color: rgba(72, 95, 228, 0.8);
     margin: 3% auto;
     padding: 1%;
     width: 15%;
     border: 1px black;
     border-radius: 3px;
     box-shadow: 3px 3px 10px rgba(0,0,0,0.8);
-    color: rgba(228, 228, 228, 0.8);
+    color: rgba(255, 255, 255, 0.8);
     font-size: 100%;
     font-weight: 600;
     text-align: center;
@@ -88,6 +88,12 @@ body {
 
 .small-button:hover {
     background-color: rgba(14, 27, 99, 0.8);
-    color: rgba(241, 241, 241, 0.8);
+    color: rgba(255, 255, 255, 0.8);
 }
+
+/* -- Forms Styles and Effects -- */
+
+/* -- Tables Styles and Effects -- */
+
+/* -- Lists Styles and Effects -- */
 
