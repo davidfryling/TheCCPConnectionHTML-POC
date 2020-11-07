@@ -103,10 +103,35 @@ header {
 }
 
 /* -- Forms Styles and Effects -- */
+form input {
+    display: block;
+    margin: 1% auto;
+    font-size: 100%;
+    width: 50%;
+    border-radius: 3px;
+    text-align: center;
+}
+
+form select {
+    display: block;
+    margin: 1% auto;
+    font-size: 100%;
+    width: 50%;
+    border-radius: 3px;
+    text-align: center;
+}
+
+form select:hover {
+    cursor: pointer;
+}
 
 /* -- Tables Styles and Effects -- */
 
 /* -- Lists Styles and Effects -- */
+
+ul {
+    list-style-type: none;
+}
 
 /* -- Footer Styles -- */
 
@@ -119,3 +144,4 @@ footer img {
     bottom: 0;
     width: 75%;
     align-content: right; /* -- align right??? -- */
+}
