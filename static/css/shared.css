@@ -30,6 +30,15 @@ body {
     justify-items: center;
 }
 
+/* -- Header Styles -- */
+
+header {
+    position: relative;
+    display: block; 
+    margin: 0 auto;
+    width: 75%;
+}
+
 /* -- Container Styles and Effects -- */
 
 .container {
@@ -37,7 +46,7 @@ body {
     display: block; 
     background-color: rgba(106, 213, 231, 0.8);
     padding: 2%;
-    margin: 12.5% auto;
+    margin: 0 auto;
     width: 75%;
     line-height: 2;
     font-weight: 300;
@@ -99,3 +108,14 @@ body {
 
 /* -- Lists Styles and Effects -- */
 
+/* -- Footer Styles -- */
+
+footer img {
+    max-height: 25%;
+    max-width: 25%;
+    position: relative;
+    display: inline-block; 
+    padding: 0;
+    bottom: 0;
+    width: 75%;
+    align-content: right; /* -- align right??? -- */
