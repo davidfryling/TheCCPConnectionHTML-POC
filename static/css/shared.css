@@ -56,6 +56,11 @@ header {
     text-align: center;
 }
 
+.student-info-wrapper {
+    width: 50%;
+    margin: 1% auto;
+}
+
 /* -- Buttons Styles and Effects -- */
 
 .large-button {
@@ -103,6 +108,7 @@ header {
 }
 
 /* -- Forms Styles and Effects -- */
+
 form input {
     display: block;
     margin: 1% auto;
@@ -116,13 +122,18 @@ form select {
     display: block;
     margin: 1% auto;
     font-size: 100%;
-    width: 50%;
+    width: 30%;
     border-radius: 3px;
     text-align: center;
+    background-color: rgba(235, 237, 241, 0.8);
 }
 
 form select:hover {
     cursor: pointer;
+}
+
+.table-select {
+    width: 100%;
 }
 
 /* -- Tables Styles and Effects -- */
