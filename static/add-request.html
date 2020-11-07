@@ -39,7 +39,9 @@
 			</div>
 			<div>
 				<form action="" method="get">
-					Term: <input type="dropdown" name="Term_ID"><br> <!-- HTML for dropdown -->
+					<select name="Term_ID">
+						<option value="Autumn 2021">Autumn 2021</option>
+						<option value="Spring 2022">Spring 2022</option>
 					<input class="small-button" type="submit" value="Change Term">
 				</form>
 				<form action="./confirmation.html" method="post">
@@ -50,11 +52,10 @@
 					Credit Hours: <input type="text" name="Credit_Hours" placeholder="#">
 					Course Name: <input type="text" name="Course_Name" placeholder="Course Name">
 					Days & Times: <input type="text" name="Days_Times" placeholder="Days & Times">
-					<input type="submit" value="Submit">
+					<input class="small-button" type="submit" value="Submit">
 				</form>
 			</div>
 			<div>
-				<a class="small-button" href="./confirmation.html">Submit</a>
 				<a class="small-button" href="./add-drop.html">Back</a>
 			</div>
 		</div>

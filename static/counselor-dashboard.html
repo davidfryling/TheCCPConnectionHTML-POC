@@ -32,33 +32,48 @@
 					<input class="small-button" type="submit" value="Search">
 				</form>
 				<table>
-					<tr> 
+					<tr>
+						<!-- <td>John</td>
+						<td>Doe</td>
+						<td>eSTEM</td>
+						<td>000000</td>
+						<td>john.doe@reyn.org</td>
+						<td>mama.doe@yahoo.com</td> -->
+						<th>First Name</th>
+						<th>Last Name</th>
+						<th>High School</th>
+						<th>Cougar ID</th>
+						<th>Student Email</th>
+						<th>Parent Email</th>
 						<th>Subject</th>
-						<th>Counrse Number</th>
-						<th>Section Number</th>
-						<th>Synonym Number</th>
+						<th>Course #</th>
+						<th>Section #</th>
+						<th>Synonym #</th>
 						<th>Credit Hours</th>
 						<th>Course Name</th>
 						<th>Days & Times</th>
 						<th>Parent Approval</th>
-						<th>Counselor Approval</th>
-						<th>Advisor Decision</th>	
 						<th>SSID</th>
 						<th>Max Credits</th>
 						<th>Approval?</th>
 						<th>Submit</th>
+						<th>Advisor Decision</th>
 					</tr>
-					<tr> 
-						<td>Subject</td>
-						<td>Counrse Number</td>
-						<td>Section Number</td>
-						<td>Synonym Number</td>
-						<td>Credit Hours</td>
-						<td>Course Name</td>
-						<td>Days & Times</td>
-						<td>Parent Approval</td>
-						<td>Counselor Approval</td>
-						<td>Advisor Decision</td>
+					<tr>
+						<td>Jane</td>
+						<td>Doe</td>
+						<td>HS2</td>
+						<td>000001</td>
+						<td>jane.doe@reyn.org</td>
+						<td>mama.doe@yahoo.com</td> 
+						<td>MATH</td>
+						<td>1149</td>
+						<td>100</td>
+						<td>12345</td>
+						<td>4.00</td>
+						<td>Trigonometry</td>
+						<td>M/W 8:00-9:00am</td>
+						<td>Pending...</td>
 						<th>
 							SSID: <input type="text" name="SSID" placeholder="Please Enter Student's SSID">
 						</th>
@@ -68,7 +83,9 @@
 						<th>Approval?</th>	
 						<td>
 							<form action="" method="post">
-								Approval: <input type="dropdown" name="Approval">
+								<select class="table-select" name="Approve">
+									<option value="Approve">Approve</option>
+									<option value="Do NOT Approve">Do NOT Approve</option>
 							</form>
 						</td>
 						<td>
@@ -76,6 +93,7 @@
 								<input type="submit" value="Submit">
 							</form>
 						</td>
+						<td>Pending...</td>
 					</tr>
 				</table>
 			</div>
