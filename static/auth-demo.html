@@ -14,19 +14,22 @@
 		</header>
 
 		<!-- /Header -->
-		
-		<!-- Container with Instructions & 4 Large Buttons -->
-		
+
+		<!-- Container with Instructions & Parent Authentication Form & 2 Small Buttons -->
+
 		<div class="container">
 			<div>
-				<h1>Welcome to The CCP Connection!</h1>
-				<h3>Please select your role below to use this online course request portal:</h3>
+				<h1>Enter your username and password below</h1>
 			</div>
 			<div>
-				<a class="large-button" href="./return.html">Student</a>
-				<a class="large-button" href="./parent-auth.html">Parent</a>
-				<a class="large-button" href="./auth-demo.html">Counselor</a>
-				<a class="large-button" href="./advisor-dashboard.html">Advisor</a> <!-- change to auth-demo.html during that demo -->
+				<form action="./counselor-dashboard.html" method="post"> <!-- change to advisor-dashboard.html during that demo -->
+					Username: <input type="text" name="Last_Name" placeholder="Username"><br>
+					Password: <input type="text" name="CID" placeholder="Password"><br>
+					<input class="small-button" type="submit" value="Login">
+				</form>
+			</div>
+			<div>
+				<a class="small-button" href="./index.html">Back</a>
 			</div>
 		</div>
 
@@ -41,5 +44,5 @@
 
 		<!-- /Footer -->
 	
-	</body>	
+	</body>
 </html>
