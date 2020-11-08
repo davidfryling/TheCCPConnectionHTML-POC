@@ -88,7 +88,7 @@ header {
 
 .small-button {
     position: relative;
-    display: block; 
+    display: block;
     background-color: rgba(72, 95, 228, 0.8);
     margin: 2% auto;
     padding: .5%;
@@ -104,6 +104,29 @@ header {
 }
 
 .small-button:hover {
+    cursor: pointer;
+    background-color: rgba(14, 27, 99, 0.8);
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.table-small-button {
+    position: relative;
+    display: block;
+    background-color: rgba(72, 95, 228, 0.8);
+    margin: 2% auto;
+    padding: .5%;
+    width: 90%;
+    border: 1px black;
+    border-radius: 3px;
+    box-shadow: 3px 3px 10px rgba(0,0,0,0.8);
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 75%;
+    font-weight: 600;
+    text-align: center;
+    text-decoration: none;
+}
+
+.table-small-button:hover {
     cursor: pointer;
     background-color: rgba(14, 27, 99, 0.8);
     color: rgba(255, 255, 255, 0.8);
