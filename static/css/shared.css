@@ -47,7 +47,7 @@ header {
     background-color: rgba(106, 213, 231, 0.8);
     padding: 2%;
     margin: 0 auto;
-    width: 90%;
+    width: 95%;
     line-height: 2;
     font-weight: 300;
     border: 1px black;
@@ -67,29 +67,7 @@ header {
     position: relative;
     display: block; 
     background-color: rgba(72, 95, 228, 0.8);
-    margin: 3% auto;
-    padding: 2%;
-    width: 25%;
-    border: 1px black;
-    border-radius: 3px;
-    box-shadow: 3px 3px 10px rgba(0,0,0,0.8);
-    color: rgba(255, 255, 255, 0.8);
-    font-size: 150%;
-    font-weight: 600;
-    text-align: center;
-    text-decoration: none;
-}
-
-.large-button:hover {
-    background-color: rgba(14, 27, 99, 0.8);
-    color: rgba(255, 255, 255, 0.8);
-}
-
-.small-button {
-    position: relative;
-    display: block; 
-    background-color: rgba(72, 95, 228, 0.8);
-    margin: 3% auto;
+    margin: 2% auto;
     padding: 1%;
     width: 15%;
     border: 1px black;
@@ -102,7 +80,31 @@ header {
     text-decoration: none;
 }
 
+.large-button:hover {
+    cursor: pointer;
+    background-color: rgba(14, 27, 99, 0.8);
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.small-button {
+    position: relative;
+    display: block; 
+    background-color: rgba(72, 95, 228, 0.8);
+    margin: 2% auto;
+    padding: .5%;
+    width: 10%;
+    border: 1px black;
+    border-radius: 3px;
+    box-shadow: 3px 3px 10px rgba(0,0,0,0.8);
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 75%;
+    font-weight: 600;
+    text-align: center;
+    text-decoration: none;
+}
+
 .small-button:hover {
+    cursor: pointer;
     background-color: rgba(14, 27, 99, 0.8);
     color: rgba(255, 255, 255, 0.8);
 }
@@ -113,7 +115,7 @@ form input {
     display: block;
     margin: 1% auto;
     font-size: 100%;
-    width: 30%;
+    width: 20%;
     border-radius: 3px;
     text-align: center;
     background-color: rgba(235, 237, 241, 0.8);
@@ -123,7 +125,7 @@ form select {
     display: block;
     margin: 1% auto;
     font-size: 100%;
-    width: 30%;
+    width: 20%;
     border-radius: 3px;
     text-align: center;
     background-color: rgba(235, 237, 241, 0.8);
@@ -134,8 +136,19 @@ form select:hover {
 }
 
 .table-select {
-    width: 100%;
+    width: 90%;
 }
+
+.form-input {
+    display: block;
+    margin: 1% auto;
+    font-size: 100%;
+    width: 90%;
+    border-radius: 3px;
+    text-align: center;
+    background-color: rgba(235, 237, 241, 0.8);
+}
+
 
 /* -- Tables Styles and Effects -- */
 
@@ -143,6 +156,11 @@ table {
     margin: 1% auto;
     width: 100%;
     font-size: 75%;
+    /* border: 1px solid rgba(14, 27, 99, 0.8); */
+}
+
+th {
+    text-decoration: underline;
 }
 
 /* -- Lists Styles and Effects -- */
