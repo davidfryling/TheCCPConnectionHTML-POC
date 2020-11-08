@@ -91,7 +91,7 @@ header {
     display: block;
     background-color: rgba(72, 95, 228, 0.8);
     margin: 2% auto;
-    padding: .5%;
+    padding: .25%;
     width: 10%;
     border: 1px black;
     border-radius: 3px;
@@ -114,7 +114,7 @@ header {
     display: block;
     background-color: rgba(72, 95, 228, 0.8);
     margin: 2% auto;
-    padding: .5%;
+    padding: 1%;
     width: 90%;
     border: 1px black;
     border-radius: 3px;
