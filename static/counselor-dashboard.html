@@ -25,20 +25,39 @@
 				</div>
 			</div>
 			<div>
-				<form action="" method="get">
-					<select name="Term_ID"> 
-						<option value="Autumn 2021">Autumn 2021</option>
-						<option value="Spring 2022">Spring 2022</option>
-					<input class="small-button" type="submit" value="Change Term">
-					<select name=""> 
-						<option value="Unapproved">Unapproved</option>
-						<option value="Approved">Approved</option>
-					<input class="small-button" type="submit" value="Search">
-					<select name=""> 
-						<option value="Unregistered">Unregistered</option>
-						<option value="Registered">Registered</option>
-					<input class="small-button" type="submit" value="Search">
-				</form>
+				<table class="student-info-wrapper">
+					<tr>
+						<th>Change Term</th>
+						<th>Approved/Unuappoved</th>
+						<th>Registered/Unregistered</th>
+					</tr>
+					<tr>
+						<td>
+							<form action="" method="get">
+								<select class="table-select" name="Term_ID"> 
+									<option value="Autumn 2021">Autumn 2021</option>
+									<option value="Spring 2022">Spring 2022</option>
+								<input class="small-button" type="submit" value="Change Term">
+							</form>
+						</td>
+						<td>
+							<form action="" method="get">
+								<select class="table-select" name=""> 
+									<option value="Unapproved">Unapproved</option>
+									<option value="Approved">Approved</option>
+								<input class="small-button" type="submit" value="Search">
+							</form>
+						</td>
+						<td>
+							<form action="" method="get">
+								<select class="table-select" name=""> 
+									<option value="Unregistered">Unregistered</option>
+									<option value="Registered">Registered</option>
+								<input class="small-button" type="submit" value="Search">
+							</form>
+						</td>
+					</tr>
+				</table>
 				<table>
 					<tr>
 						<th>Student Name</th>
