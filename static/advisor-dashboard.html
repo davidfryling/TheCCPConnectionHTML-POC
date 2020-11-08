@@ -21,52 +21,59 @@
 			<div>
 				<h1>Advisor Dashboard</h1>
 				<div>
-					<a  class="small-button" href="./index.html">Logout</a>
+					<a class="small-button" href="./index.html">Logout</a>
 				</div>
 			</div>
 			<div>
 				<form action="" method="get">
-					Term: <input type="dropdown" name="Term_ID"><br> <!-- HTML for dropdown -->
-					Parent Approval: <input type="dropdown" name="Parent_Approval"><br> <!-- HTML for dropdown -->
-					Counselor Approval: <input type="dropdown" name="Counselor_Approval"><br> <!-- HTML for dropdown -->
-					Unregistered: <input type="dropdown" name="Advisor_Decision"><br> <!-- HTML for dropdown -->
+					<select name="Term_ID"> 
+						<option value="Autumn 2021">Autumn 2021</option>
+						<option value="Spring 2022">Spring 2022</option>
+					<input class="small-button" type="submit" value="Change Term">
+					<select name=""> 
+						<option value="Unapproved">Unapproved</option>
+						<option value="Approved">Approved</option>
+					<input class="small-button" type="submit" value="Search">
+					<select name=""> 
+						<option value="Unregistered">Unregistered</option>
+						<option value="Registered">Registered</option>
 					<input class="small-button" type="submit" value="Search">
 				</form>
 				<table>
-					<tr> 
+					<tr>
+						<th>Student Name</th>
 						<th>Subject</th>
-						<th>Counrse Number</th>
-						<th>Section Number</th>
-						<th>Synonym Number</th>
+						<th>Course #</th>
+						<th>Section #</th>
+						<th>Synonym #</th>
 						<th>Credit Hours</th>
 						<th>Course Name</th>
 						<th>Days & Times</th>
 						<th>Parent Approval</th>
-						<th>Counselor Approval</th>
-						<th>Advisor Decision</th>	
 						<th>SSID</th>
 						<th>Max Credits</th>
-						<th>Registered?</th>
+						<th>Counselor Decision</th>
+						<th>Advisor Decision</th>
 						<th>Submit</th>
 					</tr>
-					<tr> 
-						<td>Subject</td>
-						<td>Counrse Number</td>
-						<td>Section Number</td>
-						<td>Synonym Number</td>
-						<td>Credit Hours</td>
-						<td>Course Name</td>
-						<td>Days & Times</td>
-						<td>Parent Approval</td>
-						<td>Counselor Approval</td>
-						<td>Advisor Decision</td>
-						<th>SSID</th>
-						<th>Max Credits</th>
-						<th>Submit</th>
-						<th>Registered?</th>
+					<tr>
+						<td><a href="edit-student.html">Jane Doe</a></td>
+						<td>MATH</td>
+						<td>1149</td>
+						<td>100</td>
+						<td>12345</td>
+						<td>4.00</td>
+						<td>Trigonometry</td>
+						<td>M/W 8:00-9:00am</td>
+						<td>Pending...</td>
+						<td>AA000000</td>
+						<td>25</td>	
+						<td>Pending...</td>
 						<td>
 							<form action="" method="post">
-								Registered: <input type="dropdown" name="Register">
+								<select class="table-select" name="Approve">
+									<option value="Registered">Registered</option>
+									<option value="NOT Registered">NOT Registered</option>
 							</form>
 						</td>
 						<td>

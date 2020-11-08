@@ -26,25 +26,22 @@
 			</div>
 			<div>
 				<form action="" method="get">
-					Term: <input type="dropdown" name="Term_ID"><br> <!-- HTML for dropdown -->
-					Unapproved: <input type="dropdown" name="Parent_Approval"><br> <!-- HTML for dropdown -->
-					Unregistered: <input type="dropdown" name="Advisor_Decision"><br> <!-- HTML for dropdown -->
+					<select name="Term_ID"> 
+						<option value="Autumn 2021">Autumn 2021</option>
+						<option value="Spring 2022">Spring 2022</option>
+					<input class="small-button" type="submit" value="Change Term">
+					<select name=""> 
+						<option value="Unapproved">Unapproved</option>
+						<option value="Approved">Approved</option>
+					<input class="small-button" type="submit" value="Search">
+					<select name=""> 
+						<option value="Unregistered">Unregistered</option>
+						<option value="Registered">Registered</option>
 					<input class="small-button" type="submit" value="Search">
 				</form>
 				<table>
 					<tr>
-						<!-- <td>John</td>
-						<td>Doe</td>
-						<td>eSTEM</td>
-						<td>000000</td>
-						<td>john.doe@reyn.org</td>
-						<td>mama.doe@yahoo.com</td> -->
-						<th>First Name</th>
-						<th>Last Name</th>
-						<th>High School</th>
-						<th>Cougar ID</th>
-						<th>Student Email</th>
-						<th>Parent Email</th>
+						<th>Student Name</th>
 						<th>Subject</th>
 						<th>Course #</th>
 						<th>Section #</th>
@@ -60,12 +57,7 @@
 						<th>Advisor Decision</th>
 					</tr>
 					<tr>
-						<td>Jane</td>
-						<td>Doe</td>
-						<td>HS2</td>
-						<td>000001</td>
-						<td>jane.doe@reyn.org</td>
-						<td>mama.doe@yahoo.com</td> 
+						<td><a href="edit-student.html">Jane Doe</a></td>
 						<td>MATH</td>
 						<td>1149</td>
 						<td>100</td>
@@ -74,13 +66,12 @@
 						<td>Trigonometry</td>
 						<td>M/W 8:00-9:00am</td>
 						<td>Pending...</td>
-						<th>
-							SSID: <input type="text" name="SSID" placeholder="Please Enter Student's SSID">
-						</th>
-						<th>
-							Max Credits: <input type="text" name="SSID" placeholder="Please Enter Student's Max Credits">
-						</th>
-						<th>Approval?</th>	
+						<td>
+							<input class="form-input" type="text" name="SSID" placeholder="Please Enter Student's SSID">
+						</td>
+						<td>
+							<input class="form-input" type="text" name="SSID" placeholder="Please Enter Student's Max Credits">
+						</td>	
 						<td>
 							<form action="" method="post">
 								<select class="table-select" name="Approve">
@@ -90,7 +81,7 @@
 						</td>
 						<td>
 							<form action="" method="post">
-								<input type="submit" value="Submit">
+								<input class="small-button" type="submit" value="Submit">
 							</form>
 						</td>
 						<td>Pending...</td>
