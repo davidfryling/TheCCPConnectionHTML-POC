@@ -141,7 +141,7 @@ form input {
     width: 20%;
     border-radius: 3px;
     text-align: center;
-    background-color: rgba(235, 237, 241, 0.8);
+    background-color: rgba(235, 237, 241, 0.9);
 }
 
 form select {
@@ -151,7 +151,7 @@ form select {
     width: 20%;
     border-radius: 3px;
     text-align: center;
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: rgba(255, 255, 255, 0.9);
 }
 
 form select:hover {
@@ -169,7 +169,7 @@ form select:hover {
     width: 90%;
     border-radius: 3px;
     text-align: center;
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: rgba(255, 255, 255, 0.9);
 }
 
 
